@@ -1,0 +1,29 @@
+<svg width="1284" height="1972" viewBox="0 0 1284 1972" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M162 1202L242 682H1047.5L1122 1202H162Z" fill="#FFE5D7" stroke="#E45403" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M196.391 1151.25L263.796 725.249C265.641 713.587 275.694 705 287.501 705H1001.43C1013.34 705 1023.44 713.725 1025.18 725.501L1087.95 1151.5C1090.08 1165.99 1078.85 1179 1064.2 1179H220.096C205.345 1179 194.086 1165.82 196.391 1151.25Z" fill="#FFE5D7" stroke="#E45403" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M2 1442H1282L1122 1202H162L2 1442Z" fill="#FFE5D7" stroke="#E45403" stroke-width="4" stroke-linejoin="bevel"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2 522L122 922L2 1442L162 1202L242 682L2 522ZM1282 1442L1162 922L1282 522L1047.5 682L1122 1202L1282 1442Z" fill="#FFE5D7" stroke="#E45403" stroke-width="4" stroke-linejoin="bevel"/>
+<path d="M1282 522H2L242 682H1047L1282 522Z" fill="#FFE5D7" stroke="#E45403" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+<ellipse cx="762" cy="1266.5" rx="40" ry="24.5" fill="#FFE5D7" stroke="#E45403" stroke-width="4"/>
+<ellipse cx="842" cy="1306.5" rx="40" ry="24.5" fill="#FFE5D7" stroke="#E45403" stroke-width="4"/>
+<ellipse cx="682" cy="1306.5" rx="40" ry="24.5" fill="#FFE5D7" stroke="#E45403" stroke-width="4"/>
+<circle cx="1032" cy="1322" r="60" fill="#FFE5D7" stroke="#E45403" stroke-width="4"/>
+<ellipse cx="302" cy="1331.5" rx="84" ry="44.5" fill="#FFE5D7" stroke="#E45403" stroke-width="4"/>
+<ellipse cx="302" cy="1331.5" rx="41" ry="20.5" fill="#FFE5D7" stroke="#E45403" stroke-width="4"/>
+<rect x="292" y="1234" width="20" height="116" fill="#FFE5D7" stroke="#E45403" stroke-width="4"/>
+<circle cx="302" cy="1212" r="60" fill="#FFE5D7" stroke="#E45403" stroke-width="4"/>
+<path d="M402 1312L442 1332L402 1352L402 1312Z" fill="#FFE5D7" stroke="#E45403" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M202 1352L162 1332L202 1312L202 1352Z" fill="#FFE5D7" stroke="#E45403" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+<rect x="2" y="1442" width="1280" height="520" fill="#FFE5D7" stroke="#E45403" stroke-width="4" stroke-linejoin="round"/>
+<rect x="42" y="1482" width="880" height="440" rx="24" fill="#FFE5D7" stroke="#E45403" stroke-width="4"/>
+<rect width="280" height="440" rx="24" transform="matrix(-1 0 0 1 1242 1482)" fill="#FFE5D7" stroke="#E45403" stroke-width="4"/>
+<path d="M102 1642V1762M142 1602V1802M182 1602V1802M222 1602V1802M262 1642V1762" stroke="#E45403" stroke-width="12" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M702 1642V1762M742 1602V1802M782 1602V1802M822 1602V1802M862 1642V1762" stroke="#E45403" stroke-width="12" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M1042 1752V1832C1044.17 1845.33 1059.8 1872 1103 1872C1146.2 1872 1160 1845.33 1162 1832L1162.5 1752" stroke="#E45403" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M1162 1591C1162 1624.14 1135.14 1651 1102 1651C1068.86 1651 1042 1624.14 1042 1591C1042 1557.86 1068.86 1531 1102 1531C1135.14 1531 1162 1557.86 1162 1591Z" fill="#FFE5D7"/>
+<path d="M1103 1531V1650.5M1162 1591C1162 1624.14 1135.14 1651 1102 1651C1068.86 1651 1042 1624.14 1042 1591C1042 1557.86 1068.86 1531 1102 1531C1135.14 1531 1162 1557.86 1162 1591Z" stroke="#E45403" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+<path d="M1162 1752C1162 1785.14 1135.14 1812 1102 1812C1068.86 1812 1042 1785.14 1042 1752C1042 1718.86 1068.86 1692 1102 1692C1135.14 1692 1162 1718.86 1162 1752Z" fill="#FFE5D7"/>
+<path d="M1103 1692V1811.5M1162 1752C1162 1785.14 1135.14 1812 1102 1812C1068.86 1812 1042 1785.14 1042 1752C1042 1718.86 1068.86 1692 1102 1692C1135.14 1692 1162 1718.86 1162 1752Z" stroke="#E45403" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+<rect x="2" y="2" width="1280" height="520" fill="#FFE5D7" stroke="#E45403" stroke-width="4" stroke-linejoin="round"/>
+<rect x="31" y="30" width="1220" height="460" fill="#FFE5D7" stroke="#E45403" stroke-width="4" stroke-linejoin="round"/>
+</svg>

@@ -1,3 +1,919 @@
-@import url("../fonts/Monoid-Bold.ttf");
-@import url("../fonts/Monoid-Retina.ttf");
-@import url("../fonts/Monoid-Italic.ttf");
+body {
+    font-family: 'Monoid';
+    background-color: rgb(255, 255, 255);
+}
+
+.MAIN {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 160px;
+    margin-top: 40px;
+}
+
+/* ПЕРВЫЙ ЭКРАН */
+/* БЛОКИ */
+
+.FIRST {
+    width: 1440px;
+    height: 710px;
+}
+
+.block1 {
+    width: 327.846px;
+    height: 327.846px;
+}
+
+#b1 {
+    left: 80px;
+    top: 422px;
+    position: absolute;
+}
+
+.block2 {
+    width: 480px;
+    height: 120px;
+}
+
+#b2 {
+    left: 410px;
+    top: 630px;
+    position: absolute;
+}
+
+.block3 {
+    width: 372.032px;
+    height: 387.174px;
+}
+
+#b3 {
+    left: 988px;
+    top: 363px;
+    position: absolute;
+}
+
+.block4 {
+    width: 265.635px;
+    height: 432.6px;
+}
+
+#b4 {
+    left: 0px;
+    top: 77px;
+    position: absolute;
+}
+
+.block5 {
+    width: 487.824px;
+    height: 156.656px;
+}
+
+#b5 {
+    left: 266px;
+    top: 296px;
+    position: absolute;
+}
+
+.block6 {
+    width: 331.072px;
+    height: 331.072px;
+}
+
+#b6 {
+    left: 1109px;
+    top: 69px;
+    position: absolute;
+}
+
+.block7 {
+    width: 326.086px;
+    height: 373.171px;
+}
+
+#b7 {
+    left: 814px;
+    top: 184px;
+    position: absolute;
+}
+
+.block8 {
+    width: 373.325px;
+    height: 271.447px;
+}
+
+#b8 {
+    left: 565px;
+    top: 43px;
+    position: absolute;
+}
+
+/* ТЕКСТ */
+
+.h {
+    color: #E45403;
+    font-size: 210.339px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#h1 {
+    left: 399px;
+    top: 402px;
+    position: absolute;
+    margin: 0 0 0 0;
+}
+
+#h2 {
+    left: 512px;
+    top: 404px;
+    transform: rotate(-15.644deg);
+    position: absolute;
+    margin: 0 0 0 0;
+}
+
+#h3 {
+    left: 616px;
+    top: 402px;
+    position: absolute;
+    margin: 0 0 0 0;
+}
+
+#h4 {
+    left: 717px;
+    top: 418px;
+    transform: rotate(-43.388deg);
+    position: absolute;
+    margin: 0 0 0 0;
+}
+
+#h5 {
+    left: 855px;
+    top: 526px;
+    transform: rotate(-11.156deg);
+    position: absolute;
+    margin: 0 0 0 0;
+}
+
+#h6 {
+    left: 962px;
+    top: 419px;
+    transform: rotate(60deg);
+    position: absolute;
+    margin: 0 0 0 0;
+}
+
+#author {
+    left: 1226.5px;
+    top: 681px;
+    color: #E45403;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+}
+
+/* ВТОРОЙ ЭКРАН */
+/* ДЖОЙСТИК */
+
+.SECOND {
+    width: 1440px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+}
+
+.joy1 {
+    width: 1272px;
+    height: 552px;
+    background: #FFE5D7;
+    border: solid #E45403 4px;
+    border-radius: 12px;
+}
+
+.joy2 {
+    width: 1188px;
+    height: 392px;
+    margin-top: 120px;
+    margin-left: 44px;
+    background: #FFE5D7;
+    border: solid #E45403 4px;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+.jt {
+    color: #E45403;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.joy3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joy31 {
+    width: 312px;
+    height: 112px;
+    margin-top: -4px;
+    background: #FFE5D7;
+    border: 4px solid #E45403;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.joy32 {
+    width: 312px;
+    height: 72px;
+    background: #FFE5D7;
+    border: 4px solid #E45403;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joy33 {
+    width: 312px;
+    height: 72px;
+    background: #FFE5D7;
+    border: 4px solid #E45403;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joy4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.joy5 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.button {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    border: 4px solid #E45403;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt1 {
+    color: #E45403;
+    margin: 0 0 0 0;
+    font-size: 53.638px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.bt2 {
+    color: #E45403;
+    margin: 0 0 0 0;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+/* ТРЕТИЙ ЭКРАН */
+
+.THIRD {
+    width: 1280px;
+    height: 720px;
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.th1 {
+    display: flex;
+    width: 520px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.tht {
+    color: #E45403;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 0 0 0;
+}
+
+.th2 {
+    display: flex;
+    align-items: flex-end;
+    gap: 60px;
+    align-self: stretch;
+    margin-top: -186px;
+}
+
+/* ЧЕТВЕРТЫЙ ЭКРАН */
+/* АРКАДА */
+
+.FOURTH {
+    width: 1284px;
+    height: 1964px;
+    background-image: url(../svg/Arcade.svg);
+    display: flex;
+    flex-direction: column;
+}
+
+.arc1 {
+    width: 1280px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#arc1t {
+    color: #E45403;
+    font-size: 262.969px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0 0 0 0;
+}
+
+.arc2 {
+    width: 1280px;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#arc2t1 {
+    color: #E45403;
+    font-size: 118.019px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0 0 0 0;
+    padding-top: 183px;
+}
+
+#arc2t2 {
+    color: #E45403;
+    font-size: 118.019px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 0 0 0;
+}
+
+#arc2t3 {
+    color: #E45403;
+    font-size: 118.019px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0 0 0 0;
+}
+
+.arc3 {
+    width: 320px;
+    height: 360px;
+    margin: 80px 640px 80px 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.arc31 {
+    height: 166px;
+    width: 100%;
+    border: 4px solid #E45403;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+
+#arc31t1 {
+    color: #E45403;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+}
+
+#arc31t2 {
+    color: #E45403;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+}
+
+.arc32 {
+    height: 194px;
+    width: 100%;
+    border: 4px solid #E45403;
+    margin-top: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ПЯТЫЙ ЭКРАН */
+/* простите пожалуйста это просто жесть */
+
+.FIFTH {
+    width: 1280px;
+    height: 1040px;
+    gap: 80px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.fif1 {
+    width: 720px;
+    height: 100%;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.fif11 {
+    width: 720px;
+    height: 584px;
+    align-items: center;
+    justify-content: center;
+}
+
+#fif11 {
+    color: #E45403;
+    font-size: 630px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -28.349px;
+    margin: -100px 0 0 -40px;
+}
+
+/* тут жесть (КОНСОЛЬ BRICK GAME) */
+
+.fif12 {
+    width: 720px;
+    height: 320px;
+    display: flex;
+}
+
+.fif121 {
+    width: 326px;
+    height: 320px;
+    border-radius: 12px 0px 0px 12px;
+    border: 4px solid #E45403;
+    background: #FFE5D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brickgame {
+    width: 256px;
+    height: 256px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bg1 {
+    width: 100px;
+    height: 224px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.bg11 {
+    width: 100px;
+    height: 224px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-left: -16px;
+}
+
+#E9999 {
+    color: #E45403;
+    font-size: 13.433px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 -20px 0 -16px;
+    rotate: 90deg;
+}
+
+.bgtext {
+    color: #E45403;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: normal;
+    transform: rotate(52deg);
+    margin: 16px 0 0 0;
+}
+
+#in1 {
+    transform: rotate(52deg);
+    color: #E45403;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 36px 0 0 0;
+}
+
+.bg2 {
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.bgbigb {
+    display: flex;
+    transform: rotate(90deg);
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bgsmalltext {
+    color: #E45403;
+    text-align: center;
+    font-size: 8.209px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.fif122 {
+    width: 80px;
+    height: 320px;
+    border: 4px solid #E45403;
+    background: #FFE5D7;
+    margin-left: -4px;
+}
+
+.fif123 {
+    width: 326px;
+    height: 320px;
+    border-radius: 0px 12px 12px 0px;
+    border: 4px solid #E45403;
+    background: #FFE5D7;
+    margin-left: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fif1231 {
+    width: 240px;
+    height: 160px;
+    border: 4px solid #E45403;
+    background: #FFE5D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#skull {
+    color: #E45403;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    rotate: 90deg;
+}
+
+.fif2 {
+    width: 480px;
+    height: 100%;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+/* ШЕСТОЙ ЭКРАН */
+
+.SIXTH {
+    width: 1280px;
+    height: 664px;
+}
+
+.brickmono {
+    display: flex;
+    justify-content: start;
+    transform: rotate(-20deg);
+    margin-bottom: -210px;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #E45403;
+    background: #FFE5D7;
+    margin-left: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bold {
+    color: #E45403;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.brickglyphs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 680px;
+}
+
+.glyphsrow1 {
+    margin-bottom: -4px;
+}
+
+.glyphsrow2 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* СЕДЬМОЙ ЭКРАН */
+
+.SEVENTH {
+    width: 1440px;
+    height: auto;
+}
+
+.brickitalic {
+    display: flex;
+    justify-content: end;
+    transform: rotate(14deg);
+    margin-top: 120px;
+}
+
+.italic {
+    color: #E45403;
+    font-size: 150px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.brickretina {
+    display: flex;
+    justify-content: start;
+    transform: rotate(-10deg);
+    margin-top: 214px;
+    margin-left: 16px;
+}
+
+.retina {
+    color: #E45403;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.brickbold {
+    display: flex;
+    justify-content: start;
+    margin-left: 555px;
+    margin-top: 34px;
+}
+
+/* ВОСЬМОЙ ЭКРАН */
+
+.EIGHTH {
+    width: 1280px;
+    height: 1040px;
+    gap: 80px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.eig1 {
+    width: 720px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+#eig11 {
+    color: #E45403;
+    font-size: 630px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -28.349px;
+    margin: -90px 0 0 -70px;
+}
+
+/* ДЕВЯТЫЙ ЭКРАН */
+
+.NINTH {
+    width: 1280px;
+    height: 720px;
+    display: flex;
+    gap: 40px;
+}
+
+.poster {
+    width: 560px;
+    height: 720px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.poster img {
+    position: relative;
+    z-index: 1;
+}
+
+.poster h1 {
+    position: relative;
+    top: -700px;
+    color: #E45403;
+    font-size: 126.29px;
+    font-style: normal;
+    font-weight: bold;
+    z-index: 2;
+    margin: 0;
+}
+
+.poster p {
+    position: relative;
+    top: -700px;
+    color: #E45403;
+    font-size: 17.411px;
+    font-style: normal;
+    font-weight: normal;
+    z-index: 2;
+    margin: 0;
+}
+
+.poster h3 {
+    position: relative;
+    top: -360px;
+    z-index: 2;
+    text-align: center;
+    color: #FFE5D7;
+    text-align: center;
+    font-size: 29.406px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.consoledisk {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.console {
+    width: 680px;
+    height: 320px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.console1 {
+    width: 560px;
+    height: 320px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.console1 h3 {
+    position: relative;
+    top: -310px;
+    margin: 0;
+    color: #E45403;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.console1 h1 {
+    position: relative;
+    top: -310px;
+    margin: 0;
+    rotate: 180deg;
+    color: #E45403;
+    text-align: center;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+#star {
+    margin-top: -110px;
+}
+
+.console1 h2 {
+    position: relative;
+    top: -348px;
+    color: #FFE5D7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.disk {
+    width: 680px;
+    height: 320px;
+    display: flex;
+}
+
+.disk1 {
+    width: 120px;
+    height: 356px;
+    border: 4px solid #E45403;
+    background: #FFE5D7;
+    margin-right: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disk1 h1 {
+    transform: rotate(-90deg);
+    color: #E45403;
+    text-align: center;
+    font-size: 62.8px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 10.048px;
+}
+
+.disk2 {
+    position: relative;
+}
+
+.disk2 p {
+    color: #E45403;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    top: -364px;
+    left: 14px;
+}
+
+.footer {
+    width: 1440px;
+    height: 80px;
+    background: #E45403;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #FFE5D7;
+    padding-left: 80px;
+    padding-right: 80px;
+}

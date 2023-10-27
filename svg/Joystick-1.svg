@@ -1,0 +1,13 @@
+<svg width="1284" height="564" viewBox="0 0 1284 564" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1280" height="560" transform="translate(2 2)" fill="#FFE5D7"/>
+<rect x="2" y="2" width="1280" height="560" rx="12" stroke="#E45403" stroke-width="4"/>
+<rect x="46" y="122" width="1196" height="400" rx="12" stroke="#E45403" stroke-width="4"/>
+<path d="M282 214C282 207.373 276.627 202 270 202H214C207.373 202 202 207.373 202 214V270C202 276.627 196.627 282 190 282H134C127.373 282 122 287.373 122 294V350C122 356.627 127.373 362 134 362H190C196.627 362 202 367.373 202 374V430C202 436.627 207.373 442 214 442H270C276.627 442 282 436.627 282 430V374C282 367.373 287.373 362 294 362H350C356.627 362 362 356.627 362 350V294C362 287.373 356.627 282 350 282H294C287.373 282 282 276.627 282 270V214Z" stroke="#E45403" stroke-width="4"/>
+<rect x="882" y="322" width="120" height="120" rx="12" stroke="#E45403" stroke-width="4"/>
+<path d="M482 122H802V230C802 236.627 796.627 242 790 242H494C487.373 242 482 236.627 482 230V122Z" stroke="#E45403" stroke-width="4"/>
+<rect x="484" y="282" width="320" height="80" rx="12" stroke="#E45403" stroke-width="4"/>
+<rect x="484" y="402" width="320" height="80" rx="12" stroke="#E45403" stroke-width="4"/>
+<rect x="1042" y="322" width="120" height="120" rx="12" stroke="#E45403" stroke-width="4"/>
+<circle cx="942" cy="382" r="44" stroke="#E45403" stroke-width="4"/>
+<circle cx="1102" cy="382" r="44" stroke="#E45403" stroke-width="4"/>
+</svg>
